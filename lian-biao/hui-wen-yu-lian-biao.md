@@ -45,23 +45,14 @@ p=p.next;
 }
 ```
 
-
-
 1. 逆转后半段链表。需要3个指针。代码如下：
 
-\`\`\`java
-
+```java
 cur=q;
-
 nxt=cur.next;
-
 //注意后半段的起点变终点，需要把它的next置位空
-
 q.next=null;
-
-while\(nxt!=null\){
-
-```
+while(nxt!=null){
    nnxt=nxt.next;
 
    //逆转关系
@@ -73,11 +64,8 @@ while\(nxt!=null\){
    cur=nxt;
 
    nxt=nnxt;
-```
-
 }
-
-\`\`\`
+```
 
 1. 比较前半段和逆转的后半段，直到n1走到p（正中间或者中间偏左）为止。
 
