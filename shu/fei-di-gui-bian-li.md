@@ -19,7 +19,6 @@ while(cur.left!=null||!stack.isEmpty()){
         cur=stack.pop();    
         print(cur);
     }
-    
 }
 ```
 
