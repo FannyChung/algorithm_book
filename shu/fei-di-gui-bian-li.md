@@ -20,6 +20,9 @@ while(cur.left!=null||!stack.isEmpty()){
     }else{
         cur=stack.pop();    
         print(cur);
+        //并且往右走
+        cur=cur.right;
+        stack.push(cur);
     }
 }
 ```
