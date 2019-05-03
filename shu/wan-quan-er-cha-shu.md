@@ -34,7 +34,7 @@ return true;
 
 否则把子加入队列
 
-改变状态的时机：有任意子为空
+改变状态的时机：有任意子为空（此时右子一定为空）
 
 ```java
 if(l==null||r!=null) return false;
