@@ -10,6 +10,19 @@
 
 （左中右）
 
+```java
+while(cur.left!=null||!stack.isEmpty()){
+    if(cur.left!=null){
+        stack.push(cur);
+        cur=cur.left;
+    }else{
+        cur=stack.pop();    
+        print(cur);
+    }
+    
+}
+```
+
 ## 后序遍历
 
 
