@@ -11,6 +11,8 @@
 （左中右）想象成树由左侧路径组成。
 
 ```java
+cur=head;
+stack.push(cur);
 while(cur.left!=null||!stack.isEmpty()){
     if(cur.left!=null){
         stack.push(cur);
