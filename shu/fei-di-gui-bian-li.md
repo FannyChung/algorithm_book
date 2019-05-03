@@ -8,7 +8,7 @@
 
 ## 中序遍历
 
-（左中右）
+（左中右）想象成树由左侧路径组成。
 
 ```java
 while(cur.left!=null||!stack.isEmpty()){
