@@ -23,7 +23,7 @@ while(!queue.ieEmpty()){
             return false;
         }
     }
-    
+
 }
 return true;
 ```
@@ -32,9 +32,16 @@ return true;
 
 返回false的情况：1. 有左子空而右子不空；2. start状态开启而有子不空
 
+否则把子加入队列
+
+改变状态的时机：有任意子为空
+
 ```java
-if(cur.left==null||cur.right!=null) return false;
-if(cur.right
+if(l==null||r!=null) return false;
+if(start&&(l!=null||r!=null)) return false;
+if(l!=null) queue.add(l);
+if(r!=null) queue.add(r);
+else start=true;//右子为空
 ```
 
 
