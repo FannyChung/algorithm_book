@@ -41,6 +41,9 @@ while(!stack.isEmpty()){
         stack.push(cur.right);
     }
 }
+while(!stack2.isEmpty()){
+    print(stack2.pop());
+}
 ```
 
 
