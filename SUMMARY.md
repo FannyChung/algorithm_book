@@ -8,4 +8,5 @@
 * [树](shu.md)
   * [非递归遍历](shu/fei-di-gui-bian-li.md)
   * [应用递归收集信息](shu/ying-yong-di-gui-shou-ji-xin-xi.md)
+  * 定位节点
 
