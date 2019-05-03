@@ -1,3 +1,4 @@
-# My Awesome Book
+# 算法笔记
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+记录算法相关的题目和思考。代码比较少。
+
