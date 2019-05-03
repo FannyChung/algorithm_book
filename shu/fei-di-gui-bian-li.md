@@ -29,7 +29,18 @@ while(cur.left!=null||!stack.isEmpty()){
 （左右中）先用【前序遍历+入栈左右子逆序】的方法得到（中右左）的序列，然后再逆序。用到两个栈。
 
 ```java
-
+cur=head;
+stack.push(cur);
+while(!stack.isEmpty()){
+    cur=stack.pop();
+    stack2.push(cur);
+    if(cur.left!=null){
+        stack.push(cur.left);
+    }
+    if(cur.right!=null){
+        stack.push(cur.right);
+    }
+}
 ```
 
 
