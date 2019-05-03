@@ -22,7 +22,6 @@ while(cur.left!=null||!stack.isEmpty()){
         print(cur);
         //并且往右走
         cur=cur.right;
-        stack.push(cur);
     }
 }
 ```
