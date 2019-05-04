@@ -34,9 +34,9 @@
 
 主要有三个参数，err限定的误差，m是bitmap的位数，k是hash函数个数。
 
-$$m=-\frac{n-ln{err}}{{ln2}^2}$$
+$$m=-\frac{n-ln{(err)}}{{(ln2)}^2}$$
 
 $$k=ln2*\frac{m}{n}$$
 
-$$err={\(1-e^{-\frac{n\*k}{m}}\)^k}$$
+$$err={(1-e^{-\frac{n*k}{m}})^k}$$
 
