@@ -10,4 +10,5 @@
   * [应用递归收集信息](shu/ying-yong-di-gui-shou-ji-xin-xi.md)
   * [定位节点](shu/ding-wei-jie-dian.md)
   * [完全二叉树](shu/wan-quan-er-cha-shu.md)
+* [hash](hash.md)
 
