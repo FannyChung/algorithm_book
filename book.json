@@ -11,10 +11,10 @@
         "defineWord" : ["Gitbook Use"]
     },
     "anchor-navigation-ex": {
-            "showLevel": true,
-    "associatedWithSummary": true,
+            "showLevel": false,
+    "associatedWithSummary": false,
     "printLog": false,
-    "multipleH1": true,
+    "multipleH1": false,
     "mode": "float",
     "showGoTop":true,
     "float": {
