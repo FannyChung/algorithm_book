@@ -1,0 +1,14 @@
+{
+"plugins": [
+    "-search-pro","-lunr", "-search", "search-plus",
+    "katex",
+	"anchor-navigation-ex"
+
+],
+"pluginsConfig": {
+    "search-pro": {
+        "cutWordLib": "nodejieba",
+        "defineWord" : ["Gitbook Use"]
+    }
+}
+}
