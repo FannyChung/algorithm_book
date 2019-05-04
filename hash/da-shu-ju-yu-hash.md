@@ -36,5 +36,7 @@
 
 $$m=-\frac{n-ln{err}}{{ln2}^2}$$
 
+$$k=ln2\*\frac{m}{n}$$
+
 
 
