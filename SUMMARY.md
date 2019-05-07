@@ -14,4 +14,5 @@
   * [Trie树](shu/trieshu.md)
 * [hash](hash.md)
   * [大数据与hash](hash/da-shu-ju-yu-hash.md)
+* [并查集](bing-cha-ji.md)
 
