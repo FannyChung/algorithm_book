@@ -16,5 +16,5 @@
   * [大数据与hash](hash/da-shu-ju-yu-hash.md)
 * [并查集](bing-cha-ji.md)
 * [贪心与dp](tan-xin-yu-dp.md)
-  * 贪心
+  * [贪心](tan-xin-yu-dp/tan-xin.md)
 
