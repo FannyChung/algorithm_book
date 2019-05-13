@@ -17,6 +17,7 @@
 * [并查集](bing-cha-ji.md)
 * [贪心与dp](tan-xin-yu-dp.md)
   * [贪心](tan-xin-yu-dp/tan-xin.md)
+  * [递归](tan-xin-yu-dp/di-gui.md)
   * [动态规划](tan-xin-yu-dp/dong-tai-gui-hua.md)
 * [行走](xing-zou.md)
 * [字符串](zi-fu-chuan.md)
