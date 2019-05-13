@@ -24,7 +24,7 @@
 
 xxxxxxx xxxxxxx
 
-&gt;      aaaa
+&gt;        aaa
 
 * 先开始的优先：不行
 
