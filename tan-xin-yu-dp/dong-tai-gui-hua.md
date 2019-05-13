@@ -10,3 +10,7 @@ dp\[i\]=for all k 选最大 dp\[i-k\]+max\*k
 
 其中max=Max{max,A\[i - k + 1\]}，k可以从1~K，当然k还要&lt;=i+1.
 
+
+
+
+
