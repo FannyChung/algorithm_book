@@ -30,9 +30,24 @@ xxxxxxx xxxxxxx
 
 xxxxxxxxxxx
 
- aa   aa
+aa   aa
 
 * 先结束的优先：正确
+
+实现：
+
+按照结束时间从小到大排序
+
+```
+int lastend=-1;
+for(int i=0;i<N;i++){
+int[] cur=A[i];
+    if(lastend<=cur[0]){
+        lastend=cur[1];
+        res++;
+    }
+}
+```
 
 
 
