@@ -28,6 +28,10 @@ xxxxxxx xxxxxxx
 
 * 先开始的优先：不行
 
+xxxxxxxxxxx
+
+ aa   aa
+
 * 先结束的优先：正确
 
 
