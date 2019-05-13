@@ -41,7 +41,7 @@ aa   aa
 ```
 int lastend=-1;
 for(int i=0;i<N;i++){
-int[] cur=A[i];
+    int[] cur=A[i];
     if(lastend<=cur[0]){
         lastend=cur[1];
         res++;
