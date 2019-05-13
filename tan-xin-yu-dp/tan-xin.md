@@ -22,9 +22,9 @@
 
 * 最短优先：不行
 
-  > xxxxx xxxxx
+  > xxxxxxx xxxxxxx
   >
-  >       xxxx
+  >         xxxx
 
 * 先开始的优先：不行
 
