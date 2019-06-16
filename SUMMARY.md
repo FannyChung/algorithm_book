@@ -21,4 +21,6 @@
   * [动态规划](tan-xin-yu-dp/dong-tai-gui-hua.md)
 * [行走](xing-zou.md)
 * [字符串](zi-fu-chuan.md)
+* TMP
+  * [3sum](3sum.md)
 
